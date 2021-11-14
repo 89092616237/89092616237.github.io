@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin :0;
+    padding:0;
+    font-family: 'Kumbh sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: #000000; ;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+.navbar--container{
+
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 50px;
+}
+#navbar--logo{
+    background-color: #e9817a;
+    background-image:linear-gradient(to top,#e65e80 0%,#fa9c7f 100%);
+    background-size:100% ;
+    -webkit-background-clip: text;
+    -moz-background-clip: padding;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.navbar--menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar--item{
+    height: 80px;
+}
+.navbar--link{
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:125px;
+    text-decoration: none;
+    height:100%;
+    transition: all 0.3s ease;
+}
+.navbar--btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 1rem;
+    width:100% ;
+}
+.Button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    padding:10px 20px;
+    height:100%;
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius:4px;
+    background: #df6664;
+    background: -webkit-linear-gradient(to right, #e79c46, #e53935);
+    background: linear-gradient(to right, #e3b35b, #e53535);
+
+    color:#fff;
+    transition:all 0.3s ease;
+}
+
+#navbar--link:hover {
+
+    color: #9581fc;
+    transition: all 0.3s ease;
+}
+.h1{
+    background: blue;
+}
+.body{
+    text-decoration: #ef6c00;
+    border: #00e5ff;
+}
+
+
+/*
+
+div {
+  margin: 70px;
+  border: 1px solid #050505;
+  background: antiquewhite;
+}*/
