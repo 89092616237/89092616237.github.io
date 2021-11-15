@@ -104,6 +104,9 @@ html {
 }
 .h1{
     background: blue;
+    font-size: 48px;
+    font-family: 'Signika', sans-serif;
+    padding-bottom: 10px;
 }
 .body{
     text-decoration: #ef6c00;
