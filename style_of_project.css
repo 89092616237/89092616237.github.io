@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+    background: #63D0FF;
+}
+.body{
+    background: #63D0FF;
+    text-decoration: #ef6c00;
+    border: #00e5ff;
+    height: 100%;
+}
 *{
     box-sizing: border-box;
     margin :0;
