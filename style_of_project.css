@@ -1,9 +1,9 @@
 html {
     height: 100%;
-    background: #wrapper;
+    background: #63D0FF;
 }
 .body{
-    background: #63D0FF;
+    background: #wrapper;
     text-decoration: #ef6c00;
     border: #00e5ff;
     height: 100%;
