@@ -2,13 +2,7 @@ html {
     height: 100%;
     background: #63D0FF;
 }
-.body{
-    background: #wrapper;
-    text-decoration: #ef6c00;
-    border: #00e5ff;
-    height: 100%;
-    margin: 90px
-}
+
 *{
     box-sizing: border-box;
     margin :0;
@@ -17,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 .navbar{
-    background: #000000; ;
+    background: #000000;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -108,29 +102,20 @@ html {
     font-size: 48px;
     font-family: 'Signika', sans-serif;
     padding-bottom: 10px;
+    position: absolute;
+}
+.body{
+    position: absolute;
+    margin:0;
+    padding:0;
+    background:#63D0FF;
+    height:100%;
 }
 #wrapper {
-  position:relative;
-  width:100%;
-  height:100%;
+    position:relative;
+    width:100%;
+    height:100%;
 }
-
-#ground {
-    background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/grass_tile-tinypng.png") repeat-x 0 0 transparent;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    z-index:2;
-    width: 100%;
-    height: 192px;
-    min-height:192px;
-    border:0 none transparent;
-    outline:0 none transparent;
-    -webkit-transform:translate3d(0,0,0.01px);
-    transform:translate3d(0,0,0.01px);
-    will-change: transform;
-}
-
 
 
 #ground {
@@ -148,7 +133,6 @@ html {
     transform:translate3d(0,0,0.01px);
     will-change: transform;
 }
-
 
 /*
 
