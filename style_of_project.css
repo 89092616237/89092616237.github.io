@@ -125,7 +125,7 @@ html {
   position:relative;
   top:0;
   left:0;
-  z-index:1;
+  z-index:2;
   -webkit-transform:translate3d(0,0,0.01px);
   transform:translate3d(0,0,0.01px);
 }
