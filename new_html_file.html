@@ -139,6 +139,13 @@
 <p><label><input type="radio" name="q12" value="1"> Вариант E ответа на вопрос №1</label>
 <p><label><input type="radio" name="q12" value="4"> Вариант F ответа на вопрос №1</label>
 </div>
+        <center>
+<input type="button" value="Результат теста"
+       onclick="for (var inp = document.getElementsByTagName ('INPUT'),
+                s = j = 0, J = inp.length - 1; j < J; j++)
+                if (inp [j].checked) s += parseInt (inp [j].value);
+                alert ('Вы набрали ' + s + ' баллов.')">
+</center>
 <script src="js_main.js"></script>
 
 </body>
