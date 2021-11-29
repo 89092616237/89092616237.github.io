@@ -31,7 +31,8 @@
         </div>
     </nav>
 <body>
-        <div style="padding: 5px 10px; border-bottom: 1px solid gray">
+        <div> Рекомендуем Вам пройти тест, который поможет по набранным баллам определить ваш психотип и поможет выявить психологические проблемы на данный момент, если у вас такие обнаружатся.  
+        </div>  <div style="padding: 5px 10px; border-bottom: 1px solid gray">
 Мне лучше удаётся черпать энергию:
 <p><label><input type="radio" name="q1" value="5"> в общении с другими людьми</label>
 <p><label><input type="radio" name="q1" value="3"> во время уединённых размышлений</label>
@@ -136,7 +137,8 @@
        onclick="for (var inp = document.getElementsByTagName ('INPUT'),
                 s = j = 0, J = inp.length - 1; j < J; j++)
                 if (inp [j].checked) s += parseInt (inp [j].value);
-                alert ('Вы набрали ' + s + ' баллов. Более подробный результат будет отправлен Вам на почту.')">
+                alert ('Вы набрали ' + s + ' баллов. Более подробный результат будет отправлен Вам на почту.')
+                window.location.href = 'new_html_file.html'>
 </center>
 <script src="js_main.js"></script>
 
