@@ -133,7 +133,7 @@ I am the kind of person who:
 <p><label><input type="radio" name="q20" value="3"> it's easy to work on multiple things at once.</label>
 </div>
         <center>
-<input type="button" value="Test result"
+<input type="button" name = "buttonT" value="Test result"
        onclick="window.location.href = 'https://89092616237.github.io/testresult.html';
                 for (var inp = document.getElementsByTagName ('INPUT'),
                 s = j = 0, J = inp.length - 1; j < J; j++)
@@ -141,7 +141,18 @@ I am the kind of person who:
                 alert ('You have scored ' + s + ' points. A more detailed result will be sent to your email.');">
 </center>
 <script src="js_main.js"></script>
-
+<script>
+        for (var i = 0; i<40; i++)
+        document.getElementsByTagName('input')[i].onchange = checkIt;
+function checkIt(){
+    for (var i = 0; i<40; i+=2) {
+        if (document.getElementsByTagName('input')[i].value==''&&document.getElementsByTagName('input')[i+1].value==''){
+                document.getElementById('buttonT').disabled = true;
+        }
+    }
+}
+        
+        </script>
 </body>
         <div id="wrapper">
   <div id="clouds"></div>
